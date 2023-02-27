@@ -1,7 +1,9 @@
 /* importing the image from the url */
 @import url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 /* main container that contains everything */
 .main-container{
@@ -10,6 +12,8 @@
     display: flex;
     flex-direction: column;
     font-size: 30px;
+    color: rgba(223, 239, 241, 0.76);
+    
     
 }
 /* the clock container */
@@ -23,12 +27,14 @@
 
 /* separate container for each of the value */
 .time-c{
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
     font-size: 40px;
     display: flex;
     flex-direction: column;
 }
-
+.num{
+    font-size: 60px;
+}
 body{
     /* used to set the view port length to max */
     /* min-width: 100%; */
@@ -39,3 +45,4 @@ body{
     background-image: url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
     background-size: cover;
 }
+
