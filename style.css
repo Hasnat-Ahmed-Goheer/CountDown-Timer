@@ -1,3 +1,28 @@
 *{
     box-sizing: border-box;
 }
+/* main container that contains everything */
+.main-container{
+    margin-top: 15rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+/* the clock container */
+.clock-c{
+    /* margin-left: 12rem; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* separate container for each of the value */
+.time-c{
+    padding: 10px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
