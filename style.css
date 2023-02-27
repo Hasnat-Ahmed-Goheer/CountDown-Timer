@@ -1,3 +1,16 @@
+/* importing the image from the url */
+@import url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
 *{
     box-sizing: border-box;
+}
+
+body{
+    /* used to set the view port length to max */
+    /* min-width: 100%; */
+    min-height: 100vh;
+    /* this property removes the scroll function or rather the overflow that occurs with the scroll  */
+    overflow: hidden;
+    /* background setting */
+    background-image: url('https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
 }
