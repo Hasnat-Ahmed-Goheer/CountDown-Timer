@@ -1,12 +1,12 @@
 # Countdown Timer ⌛
-
 ---
+
 
 ## Introduction
 
 **⌛Countdown Timer** is a straightforward and user-friendly application designed to calculate the time remaining until the end of the year. This simple yet effective tool keeps you updated on how much time is left before ushering in the new year!
 
----
+
 
 ## Features
 
